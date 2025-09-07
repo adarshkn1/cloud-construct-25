@@ -24,12 +24,13 @@ const Header = () => {
             <span className="text-2xl font-bold text-primary">
               ASSOCIATION OF COMPUTER MACHINERY
             </span>
-            <img 
-              src="/lovable-uploads/279f697b-2005-4700-a806-4db33a5fbfa1.png" 
-              alt="Partner Logos" 
-              className="h-12 ml-4"
-            />
           </div>
+          
+          <img 
+            src="/lovable-uploads/279f697b-2005-4700-a806-4db33a5fbfa1.png" 
+            alt="Partner Logos" 
+            className="h-12 hidden lg:block"
+          />
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
