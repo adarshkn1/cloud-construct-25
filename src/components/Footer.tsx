@@ -14,9 +14,9 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Organization Info */}
             <div>
-              <h3 className="text-2xl font-bold text-primary mb-4">Organization</h3>
+              <h3 className="text-2xl font-bold text-primary mb-4">ACM</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Leading innovation and fostering growth in our industry through 
+                Association for Computing Machinery - Leading innovation and fostering growth in our industry through 
                 dedication, expertise, and unwavering commitment to excellence.
               </p>
             </div>
@@ -63,10 +63,10 @@ const Footer = () => {
                   Contact Us
                 </button>
                 <a 
-                  href="mailto:info@organization.com"
+                  href="mailto:info@acm.org"
                   className="block text-muted-foreground hover:text-primary transition-colors"
                 >
-                  info@organization.com
+                  info@acm.org
                 </a>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-6 text-secondary">Follow Us</h3>
             <div className="flex justify-center space-x-8">
               <a 
-                href="https://linkedin.com/company/organization" 
+                href="https://linkedin.com/company/acm" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center space-y-2 p-6 rounded-2xl bg-gradient-to-br from-blue-500/20 to-blue-600/10 hover:from-blue-500/30 hover:to-blue-600/20 transition-all duration-300 transform hover:scale-105"
@@ -102,7 +102,7 @@ const Footer = () => {
                 <span className="text-sm font-medium text-blue-600">LinkedIn</span>
               </a>
               <a 
-                href="https://instagram.com/organization" 
+                href="https://instagram.com/acm" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center space-y-2 p-6 rounded-2xl bg-gradient-to-br from-pink-500/20 via-purple-500/15 to-orange-400/10 hover:from-pink-500/30 hover:via-purple-500/25 hover:to-orange-400/20 transition-all duration-300 transform hover:scale-105"
@@ -119,7 +119,7 @@ const Footer = () => {
           
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © 2024 Organization. All rights reserved.
+              © 2024 ACM. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
