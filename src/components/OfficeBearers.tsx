@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Mail, Phone } from 'lucide-react';
-import sarahJohnson from '@/assets/bearers/sarah-johnson.jpg';
+const seemaHegde = '/lovable-uploads/cc7d8e35-31dd-460b-86c1-0164600f910b.png';
 import michaelChen from '@/assets/bearers/michael-chen.jpg';
 import emilyRodriguez from '@/assets/bearers/emily-rodriguez.jpg';
 import davidThompson from '@/assets/bearers/david-thompson.jpg';
@@ -10,12 +10,12 @@ import davidThompson from '@/assets/bearers/david-thompson.jpg';
 const OfficeBearers = () => {
   const bearers = [
     {
-      name: "Dr. Sarah Johnson",
-      position: "President",
-      email: "president@organization.com",
+      name: "Dr. Seema B Hegde",
+      position: "Faculty Sponsor",
+      email: "seema.hegde@gat.ac.in",
       phone: "+1 (555) 123-4567",
       bio: "Leading the organization with over 15 years of industry experience and a passion for innovation.",
-      photo: sarahJohnson
+      photo: seemaHegde
     },
     {
       name: "Michael Chen",
