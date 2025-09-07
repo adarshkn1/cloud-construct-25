@@ -15,8 +15,15 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 floating-card mx-4 mt-4">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary">
-            ASSOCIATION OF COMPUTER MACHINERY
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/0aba8bed-56c4-44b7-b086-b99cf941fea3.png" 
+              alt="ACM Logo" 
+              className="h-10 w-10"
+            />
+            <span className="text-2xl font-bold text-primary">
+              ASSOCIATION OF COMPUTER MACHINERY
+            </span>
           </div>
           
           {/* Desktop Navigation */}
