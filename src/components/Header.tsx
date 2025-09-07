@@ -26,12 +26,6 @@ const Header = () => {
             </span>
           </div>
           
-          <img 
-            src="/lovable-uploads/279f697b-2005-4700-a806-4db33a5fbfa1.png" 
-            alt="Partner Logos" 
-            className="h-12 hidden lg:block"
-          />
-          
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <button 
@@ -70,17 +64,29 @@ const Header = () => {
             >
               Contact
             </button>
+            <img 
+              src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
+              alt="Partner Logos" 
+              className="h-10 ml-6"
+            />
           </div>
 
-          {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </Button>
+          {/* Mobile Navigation with Partner Logo */}
+          <div className="md:hidden flex items-center space-x-4">
+            <img 
+              src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
+              alt="Partner Logos" 
+              className="h-8"
+            />
+            {/* Mobile Menu Button */}
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </Button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
