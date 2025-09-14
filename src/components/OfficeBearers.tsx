@@ -2,10 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Mail, Phone } from 'lucide-react';
-const seemaHegde = '/lovable-uploads/cc7d8e35-31dd-460b-86c1-0164600f910b.png';
-import michaelChen from '@/assets/bearers/michael-chen.jpg';
-import emilyRodriguez from '@/assets/bearers/emily-rodriguez.jpg';
-import davidThompson from '@/assets/bearers/david-thompson.jpg';
+import seemaHegde from '@/assets/bearers/seema-hegde.jpg';
+import abhishekR from '@/assets/bearers/abhishek-r.jpg';
+import nithyaLakshmi from '@/assets/bearers/nithya-lakshmi.jpg';
+import dhanushMP from '@/assets/bearers/dhanush-mp.jpg';
+import joannaNatalie from '@/assets/bearers/joanna-natalie.jpg';
+import adamAhmed from '@/assets/bearers/adam-ahmed.jpg';
 
 const OfficeBearers = () => {
   const bearers = [
@@ -21,35 +23,35 @@ const OfficeBearers = () => {
       position: "Chapter Chairman",
       email: "chairman@organization.com",
       phone: "+91 9353646127",
-      photo: michaelChen
+      photo: abhishekR
     },
     {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
       email: "vicechairman@organization.com",
       phone: "+91 7795077176",
-      photo: emilyRodriguez
+      photo: nithyaLakshmi
     },
     {
       name: "Dhanush M P",
       position: "Treasurer",
       email: "treasurer@organization.com",
       phone: "+91 6364610030",
-      photo: davidThompson
+      photo: dhanushMP
     },
     {
       name: "Joanna Natalie R",
       position: "Secretary",
       email: "secretary@organization.com",
       phone: "+91 8861435426",
-      photo: null
+      photo: joannaNatalie
     },
     {
       name: "Adam Ahmed Yahya",
       position: "Web Master",
       email: "webmaster@organization.com",
       phone: "+91 8762473658",
-      photo: null
+      photo: adamAhmed
     }
   ];
 
