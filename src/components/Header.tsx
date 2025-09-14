@@ -19,10 +19,10 @@ const Header = () => {
             <img 
               src="/lovable-uploads/0aba8bed-56c4-44b7-b086-b99cf941fea3.png" 
               alt="ACM Logo" 
-              className="h-10 w-10"
+              className="h-12 w-12"
             />
             <span className="text-2xl font-bold text-primary">
-              ASSOCIATION OF COMPUTER MACHINERY
+              GAT
             </span>
           </div>
           
@@ -67,7 +67,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
               alt="Partner Logos" 
-              className="h-10 ml-6"
+              className="h-12 ml-6"
             />
           </div>
 
@@ -76,7 +76,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
               alt="Partner Logos" 
-              className="h-8"
+              className="h-10"
             />
             {/* Mobile Menu Button */}
             <Button

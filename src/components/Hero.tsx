@@ -29,18 +29,17 @@ const Hero = () => {
               <img 
                 src={heroLeft} 
                 alt="Professional team" 
-                className="w-48 h-64 object-cover rounded-lg shadow-elegant"
+                className="w-56 h-72 object-cover rounded-lg shadow-elegant"
               />
             </div>
             
             {/* Central Content */}
             <div className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
-                Professional Excellence
+                ACM Student Chapter: Your Gateway to Success in Computer Science
               </h1>
               <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed max-w-2xl">
-                Leading innovation and fostering growth in our industry through dedication, 
-                expertise, and unwavering commitment to our mission.
+                Welcome to the ACM (Association for Computing Machinery) Student Chapter, where computer science students come together to learn, grow, and shape the future of technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
@@ -66,7 +65,7 @@ const Hero = () => {
               <img 
                 src={heroRight} 
                 alt="Modern architecture" 
-                className="w-48 h-64 object-cover rounded-lg shadow-elegant"
+                className="w-56 h-72 object-cover rounded-lg shadow-elegant"
               />
             </div>
           </div>
