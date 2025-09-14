@@ -38,7 +38,7 @@ const Hero = () => {
               <h1 className="font-bold mb-6 text-primary" style={{ fontSize: '30px' }}>
                 ACM Student Chapter: Your Gateway to Success in Computer Science
               </h1>
-              <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed max-w-2xl text-center">
+              <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed max-w-2xl mx-auto text-center">
                 Welcome to the ACM (Association for Computing Machinery) Student Chapter, where computer science students come together to learn, grow, and shape the future of technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
