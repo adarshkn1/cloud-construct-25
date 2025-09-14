@@ -20,12 +20,9 @@ const Hero = () => {
         backgroundAttachment: 'fixed'
       }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-overlay"></div>
-      
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4">
-        <div className="floating-card p-12 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center text-white px-2">
+        <div className="floating-card p-12 w-full max-w-[98vw] mx-auto">
           <div className="flex items-center justify-center gap-8">
             {/* Left Image */}
             <div className="hidden lg:block">
