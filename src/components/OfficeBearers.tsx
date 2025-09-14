@@ -13,33 +13,43 @@ const OfficeBearers = () => {
       name: "Dr. Seema B Hegde",
       position: "Faculty Sponsor",
       email: "seema.hegde@gat.ac.in",
-      phone: "+1 (555) 123-4567",
-      bio: "Leading the organization with over 15 years of industry experience and a passion for innovation.",
+      phone: "+91 9916308755",
       photo: seemaHegde
     },
     {
-      name: "Michael Chen",
-      position: "Vice President",
-      email: "vp@organization.com",
-      phone: "+1 (555) 234-5678",
-      bio: "Driving strategic initiatives and fostering partnerships that align with our organizational goals.",
+      name: "Abhishek R",
+      position: "Chapter Chairman",
+      email: "chairman@organization.com",
+      phone: "+91 9353646127",
       photo: michaelChen
     },
     {
-      name: "Emily Rodriguez",
-      position: "Secretary",
-      email: "secretary@organization.com",
-      phone: "+1 (555) 345-6789",
-      bio: "Ensuring smooth operations and maintaining excellent communication across all departments.",
+      name: "Nithya Lakshmi G V",
+      position: "Chapter Vice Chairman",
+      email: "vicechairman@organization.com",
+      phone: "+91 7795077176",
       photo: emilyRodriguez
     },
     {
-      name: "David Thompson",
+      name: "Dhanush M P",
       position: "Treasurer",
       email: "treasurer@organization.com",
-      phone: "+1 (555) 456-7890",
-      bio: "Managing financial resources with precision and ensuring fiscal responsibility and transparency.",
+      phone: "+91 6364610030",
       photo: davidThompson
+    },
+    {
+      name: "Joanna Natalie R",
+      position: "Secretary",
+      email: "secretary@organization.com",
+      phone: "+91 8861435426",
+      photo: null
+    },
+    {
+      name: "Adam Ahmed Yahya",
+      position: "Web Master",
+      email: "webmaster@organization.com",
+      phone: "+91 8762473658",
+      photo: null
     }
   ];
 
@@ -73,9 +83,6 @@ const OfficeBearers = () => {
                       </div>
                     </CardHeader>
                     <CardContent className="space-y-4">
-                      <p className="text-muted-foreground leading-relaxed">
-                        {bearer.bio}
-                      </p>
                       <div className="space-y-2">
                         <div className="flex items-center space-x-2 text-muted-foreground">
                           <Mail size={16} />
