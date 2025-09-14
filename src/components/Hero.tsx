@@ -22,23 +22,23 @@ const Hero = () => {
     >
       {/* Content */}
       <div className="relative z-10 text-center text-white px-2">
-        <div className="floating-card p-12 w-full max-w-[98vw] mx-auto">
+        <div className="floating-card p-12 w-full max-w-[90vw] mx-auto">
           <div className="flex items-center justify-center gap-8">
             {/* Left Image */}
             <div className="hidden lg:block">
               <img 
                 src={heroLeft} 
                 alt="Professional team" 
-                className="w-56 h-72 object-cover rounded-lg shadow-elegant"
+                className="w-48 h-64 object-cover rounded-lg shadow-elegant"
               />
             </div>
             
             {/* Central Content */}
             <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
+              <h1 className="font-bold mb-6 text-primary" style={{ fontSize: '30px' }}>
                 ACM Student Chapter: Your Gateway to Success in Computer Science
               </h1>
-              <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed max-w-2xl">
+              <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed max-w-2xl text-center">
                 Welcome to the ACM (Association for Computing Machinery) Student Chapter, where computer science students come together to learn, grow, and shape the future of technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -65,7 +65,7 @@ const Hero = () => {
               <img 
                 src={heroRight} 
                 alt="Modern architecture" 
-                className="w-56 h-72 object-cover rounded-lg shadow-elegant"
+                className="w-48 h-64 object-cover rounded-lg shadow-elegant"
               />
             </div>
           </div>
