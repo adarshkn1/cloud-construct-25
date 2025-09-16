@@ -27,7 +27,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/0aba8bed-56c4-44b7-b086-b99cf941fea3.png" 
                 alt="ACM Logo" 
-                className="w-48 h-64 object-contain rounded-lg shadow-elegant bg-white/10 p-4"
+                className="w-64 h-80 object-contain rounded-lg shadow-elegant bg-white/10 p-4"
               />
             </div>
             
@@ -63,7 +63,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
                 alt="Partner Logos" 
-                className="w-48 h-64 object-contain rounded-lg shadow-elegant bg-white/10 p-4"
+                className="w-64 h-80 object-contain rounded-lg shadow-elegant bg-white/10 p-4"
               />
             </div>
           </div>

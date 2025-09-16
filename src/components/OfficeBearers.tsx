@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Linkedin } from 'lucide-react';
 import seemaHegde from '@/assets/bearers/seema-hegde.jpg';
 import abhishekR from '@/assets/bearers/abhishek-r.jpg';
 import nithyaLakshmi from '@/assets/bearers/nithya-lakshmi.jpg';
@@ -16,42 +16,48 @@ const OfficeBearers = () => {
       position: "Faculty Sponsor",
       email: "seema.hegde@gat.ac.in",
       phone: "+91 9916308755",
-      photo: seemaHegde
+      linkedin: "https://www.linkedin.com/in/dr-seema-b-hegde-4915b523?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      photo: seemaHegde,
+      showContact: true
     },
     {
       name: "Abhishek R",
       position: "Chapter Chairman",
       email: "chairman@organization.com",
       phone: "+91 9353646127",
-      photo: abhishekR
+      linkedin: "https://www.linkedin.com/in/abhisecr/",
+      photo: abhishekR,
+      showContact: true
     },
     {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
-      email: "vicechairman@organization.com",
-      phone: "+91 7795077176",
-      photo: nithyaLakshmi
+      linkedin: "https://www.linkedin.com/in/nithya-lakshmi-gv-b7464a28b",
+      photo: nithyaLakshmi,
+      showContact: false
     },
     {
       name: "Dhanush M P",
       position: "Treasurer",
-      email: "treasurer@organization.com",
-      phone: "+91 6364610030",
-      photo: dhanushMP
+      linkedin: "https://www.linkedin.com/in/dhanush-mp-15b083266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      photo: dhanushMP,
+      showContact: false
     },
     {
       name: "Joanna Natalie R",
       position: "Secretary",
       email: "secretary@organization.com",
       phone: "+91 8861435426",
-      photo: joannaNatalie
+      linkedin: "https://www.linkedin.com/in/joannanatalie2612",
+      photo: joannaNatalie,
+      showContact: true
     },
     {
       name: "Adam Ahmed Yahya",
       position: "Web Master",
-      email: "webmaster@organization.com",
-      phone: "+91 8762473658",
-      photo: adamAhmed
+      linkedin: "https://www.linkedin.com/in/adamahmedyahya",
+      photo: adamAhmed,
+      showContact: false
     }
   ];
 
@@ -86,22 +92,37 @@ const OfficeBearers = () => {
                     </CardHeader>
                     <CardContent className="space-y-4">
                       <div className="space-y-2">
+                        {bearer.showContact && bearer.email && (
+                          <div className="flex items-center space-x-2 text-muted-foreground">
+                            <Mail size={16} />
+                            <a 
+                              href={`mailto:${bearer.email}`}
+                              className="hover:text-primary transition-colors"
+                            >
+                              {bearer.email}
+                            </a>
+                          </div>
+                        )}
+                        {bearer.showContact && bearer.phone && (
+                          <div className="flex items-center space-x-2 text-muted-foreground">
+                            <Phone size={16} />
+                            <a 
+                              href={`tel:${bearer.phone}`}
+                              className="hover:text-primary transition-colors"
+                            >
+                              {bearer.phone}
+                            </a>
+                          </div>
+                        )}
                         <div className="flex items-center space-x-2 text-muted-foreground">
-                          <Mail size={16} />
+                          <Linkedin size={16} />
                           <a 
-                            href={`mailto:${bearer.email}`}
+                            href={bearer.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="hover:text-primary transition-colors"
                           >
-                            {bearer.email}
-                          </a>
-                        </div>
-                        <div className="flex items-center space-x-2 text-muted-foreground">
-                          <Phone size={16} />
-                          <a 
-                            href={`tel:${bearer.phone}`}
-                            className="hover:text-primary transition-colors"
-                          >
-                            {bearer.phone}
+                            LinkedIn Profile
                           </a>
                         </div>
                       </div>
