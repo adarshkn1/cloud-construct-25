@@ -41,9 +41,11 @@ const OfficeBearers = () => {
     {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
+      email: "vicechairman@organization.com",
+      phone: "+91 7795077176",
       linkedin: "https://www.linkedin.com/in/nithya-lakshmi-gv-b7464a28b",
       photo: nithyaLakshmi,
-      showContact: false
+      showContact: true
     },
     {
       name: "Dhanush M P",
