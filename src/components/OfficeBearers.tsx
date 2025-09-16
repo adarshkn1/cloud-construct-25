@@ -30,6 +30,15 @@ const OfficeBearers = () => {
       showContact: true
     },
     {
+      name: "Joanna Natalie R",
+      position: "Secretary",
+      email: "secretary@organization.com",
+      phone: "+91 8861435426",
+      linkedin: "https://www.linkedin.com/in/joannanatalie2612",
+      photo: joannaNatalie,
+      showContact: true
+    },
+    {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
       linkedin: "https://www.linkedin.com/in/nithya-lakshmi-gv-b7464a28b",
@@ -42,15 +51,6 @@ const OfficeBearers = () => {
       linkedin: "https://www.linkedin.com/in/dhanush-mp-15b083266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       photo: dhanushMP,
       showContact: false
-    },
-    {
-      name: "Joanna Natalie R",
-      position: "Secretary",
-      email: "secretary@organization.com",
-      phone: "+91 8861435426",
-      linkedin: "https://www.linkedin.com/in/joannanatalie2612",
-      photo: joannaNatalie,
-      showContact: true
     },
     {
       name: "Adam Ahmed Yahya",
