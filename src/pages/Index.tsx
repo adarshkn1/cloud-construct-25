@@ -8,14 +8,14 @@ import Collaborations from '@/components/Collaborations';
 import Membership from '@/components/Membership';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-import buildingBackground from '@/assets/building-background.jpg';
+import newBackground from '@/assets/new-background.jpg';
 
 const Index = () => {
   return (
     <div 
       className="min-h-screen bg-fixed bg-cover bg-center"
       style={{
-        backgroundImage: `url(${buildingBackground})`,
+        backgroundImage: `url(${newBackground})`,
       }}
     >
       {/* Background overlay */}

@@ -1,7 +1,5 @@
 import { Button } from '@/components/ui/button';
-import buildingBackground from '@/assets/building-background.jpg';
-import heroLeft from '@/assets/hero-left.jpg';
-import heroRight from '@/assets/hero-right.jpg';
+import newBackground from '@/assets/new-background.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -14,7 +12,7 @@ const Hero = () => {
       id="home" 
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
       style={{
-        backgroundImage: `url(${buildingBackground})`,
+        backgroundImage: `url(${newBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
@@ -24,12 +22,12 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white px-2">
         <div className="floating-card p-12 w-full max-w-[90vw] mx-auto">
           <div className="flex items-center justify-center gap-8">
-            {/* Left Image */}
+            {/* Left Image - ACM Logo */}
             <div className="hidden lg:block">
               <img 
-                src={heroLeft} 
-                alt="Professional team" 
-                className="w-48 h-64 object-cover rounded-lg shadow-elegant"
+                src="/lovable-uploads/0aba8bed-56c4-44b7-b086-b99cf941fea3.png" 
+                alt="ACM Logo" 
+                className="w-48 h-64 object-contain rounded-lg shadow-elegant bg-white/10 p-4"
               />
             </div>
             
@@ -60,12 +58,12 @@ const Hero = () => {
               </div>
             </div>
             
-            {/* Right Image */}
+            {/* Right Image - Partner Logos */}
             <div className="hidden lg:block">
               <img 
-                src={heroRight} 
-                alt="Modern architecture" 
-                className="w-48 h-64 object-cover rounded-lg shadow-elegant"
+                src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
+                alt="Partner Logos" 
+                className="w-48 h-64 object-contain rounded-lg shadow-elegant bg-white/10 p-4"
               />
             </div>
           </div>

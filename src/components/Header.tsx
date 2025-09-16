@@ -16,13 +16,8 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/0aba8bed-56c4-44b7-b086-b99cf941fea3.png" 
-              alt="ACM Logo" 
-              className="h-12 w-12"
-            />
             <span className="text-2xl font-bold text-primary">
-              GAT
+              GAT ACM
             </span>
           </div>
           
@@ -64,21 +59,10 @@ const Header = () => {
             >
               Contact
             </button>
-            <img 
-              src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
-              alt="Partner Logos" 
-              className="h-12 ml-6"
-            />
           </div>
 
-          {/* Mobile Navigation with Partner Logo */}
-          <div className="md:hidden flex items-center space-x-4">
-            <img 
-              src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
-              alt="Partner Logos" 
-              className="h-10"
-            />
-            {/* Mobile Menu Button */}
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
             <Button
               variant="ghost"
               size="icon"
