@@ -30,21 +30,21 @@ const OfficeBearers = () => {
       showContact: true
     },
     {
-      name: "Joanna Natalie R",
-      position: "Secretary",
-      email: "secretary@organization.com",
-      phone: "+91 8861435426",
-      linkedin: "https://www.linkedin.com/in/joannanatalie2612",
-      photo: joannaNatalie,
-      showContact: true
-    },
-    {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
       email: "vicechairman@organization.com",
       phone: "+91 7795077176",
       linkedin: "https://www.linkedin.com/in/nithya-lakshmi-gv-b7464a28b",
       photo: nithyaLakshmi,
+      showContact: true
+    },
+    {
+      name: "Joanna Natalie R",
+      position: "Secretary",
+      email: "secretary@organization.com",
+      phone: "+91 8861435426",
+      linkedin: "https://www.linkedin.com/in/joannanatalie2612",
+      photo: joannaNatalie,
       showContact: true
     },
     {
