@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import newBackground from '@/assets/new-background.jpg';
+import heroRightNew from '@/assets/hero-right-new.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -58,11 +59,11 @@ const Hero = () => {
               </div>
             </div>
             
-            {/* Right Image - Partner Logos */}
+            {/* Right Image - GAT Student Chapter Logo */}
             <div className="hidden lg:block">
               <img 
-                src="/lovable-uploads/68b4ffb4-34b0-42b1-bf9d-167f3c6a908d.png" 
-                alt="Partner Logos" 
+                src={heroRightNew} 
+                alt="GAT ACM Student Chapter" 
                 className="w-64 h-80 object-contain rounded-lg shadow-elegant bg-white/10 p-4"
               />
             </div>
