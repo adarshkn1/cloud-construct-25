@@ -64,7 +64,7 @@ const OfficeBearers = () => {
     },
     {
       name: "Nachikethana K B",
-      position: "Member",
+      position: "Membership Head",
       linkedin: "https://www.linkedin.com/in/nachikethana-k-b-362975339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       photo: nachikethanaKB,
       showContact: false
