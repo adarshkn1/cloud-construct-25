@@ -95,7 +95,6 @@ const OfficeBearers = () => {
                         <AvatarImage 
                           src={bearer.photo} 
                           alt={bearer.name}
-                          className={bearer.name === "Nithya Lakshmi G V" || bearer.name === "Joanna Natalie R" ? "object-cover scale-150" : ""}
                         />
                         <AvatarFallback>{bearer.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                       </Avatar>
