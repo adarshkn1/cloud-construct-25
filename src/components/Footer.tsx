@@ -11,16 +11,16 @@ const Footer = () => {
     <footer className="py-12 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="floating-card p-12">
-          <div className="grid md:grid-cols-4 gap-8">
-            {/* Organization Info */}
-            <div>
-              <h3 className="text-2xl font-bold text-primary mb-4">ACM</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Association for Computing Machinery - Leading innovation and fostering growth in our industry through 
-                dedication, expertise, and unwavering commitment to excellence.
-              </p>
-            </div>
+          {/* Organization Info */}
+          <div className="mb-8 text-center">
+            <h3 className="text-2xl font-bold text-primary mb-4">ACM</h3>
+            <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Association for Computing Machinery - Leading innovation and fostering growth in our industry through 
+              dedication, expertise, and unwavering commitment to excellence.
+            </p>
+          </div>
 
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Quick Links */}
             <div>
               <h4 className="font-semibold text-lg mb-4 text-secondary">Quick Links</h4>
@@ -63,10 +63,10 @@ const Footer = () => {
                   Contact Us
                 </button>
                 <a 
-                  href="mailto:info@acm.org"
+                  href="mailto:acm.studentchapter@gat.ac.in"
                   className="block text-muted-foreground hover:text-primary transition-colors"
                 >
-                  info@acm.org
+                  acm.studentchapter@gat.ac.in
                 </a>
               </div>
             </div>
@@ -80,7 +80,7 @@ const Footer = () => {
                   Professional Plaza, Suite 456
                 </p>
                 <p className="text-muted-foreground">
-                  +1 (555) 123-4567
+                  +91 9916308755
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Footer = () => {
           
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © 2024 ACM. All rights reserved.
+              © 2025 ACM. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
