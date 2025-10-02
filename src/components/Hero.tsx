@@ -20,8 +20,8 @@ const Hero = () => {
       }}
     >
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-2">
-        <div className="floating-card p-12 w-full max-w-[90vw] mx-auto">
+      <div className="relative z-10 text-center text-white px-2 w-full">
+        <div className="floating-card p-12 w-full mx-auto">
           <div className="flex items-center justify-center gap-8">
             {/* Left Image - ACM Logo */}
             <div className="hidden lg:block">
@@ -37,7 +37,7 @@ const Hero = () => {
               <h1 className="font-bold mb-6 text-primary" style={{ fontSize: '30px' }}>
                 ACM Student Chapter: Your Gateway to Success in Computer Science
               </h1>
-              <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed max-w-2xl mx-auto text-center">
+              <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed mx-auto text-center">
                 Welcome to the ACM (Association for Computing Machinery) Student Chapter, where computer science students come together to learn, grow, and shape the future of technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
