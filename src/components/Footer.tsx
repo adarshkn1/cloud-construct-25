@@ -108,7 +108,7 @@ const Footer = () => {
                 className="group flex flex-col items-center space-y-2 p-6 rounded-2xl bg-gradient-to-br from-pink-500/20 via-purple-500/15 to-orange-400/10 hover:from-pink-500/30 hover:via-purple-500/25 hover:to-orange-400/20 transition-all duration-300 transform hover:scale-105"
               >
                 <div className="p-4 bg-white rounded-full shadow-lg group-hover:shadow-xl transition-shadow">
-                  <Instagram size={24} className="text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 bg-clip-text" style={{WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}} />
+                  <Instagram size={24} className="text-pink-600" />
                 </div>
                 <span className="text-sm font-medium bg-gradient-to-r from-pink-500 via-purple-500 to-orange-400 bg-clip-text text-transparent" style={{WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Instagram</span>
               </a>
