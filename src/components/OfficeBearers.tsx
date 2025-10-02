@@ -8,6 +8,7 @@ import nithyaLakshmi from '@/assets/bearers/nithya-lakshmi.jpg';
 import dhanushMP from '@/assets/bearers/dhanush-mp.jpg';
 import joannaNatalie from '@/assets/bearers/joanna-natalie.jpg';
 import adamAhmed from '@/assets/bearers/adam-ahmed.jpg';
+import nachikethanaKB from '@/assets/bearers/nachikethana-kb.jpg';
 
 const OfficeBearers = () => {
   const bearers = [
@@ -60,6 +61,13 @@ const OfficeBearers = () => {
       linkedin: "https://www.linkedin.com/in/adamahmedyahya",
       photo: adamAhmed,
       showContact: false
+    },
+    {
+      name: "Nachikethana K B",
+      position: "Member",
+      linkedin: "https://www.linkedin.com/in/nachikethana-k-b-362975339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      photo: nachikethanaKB,
+      showContact: false
     }
   ];
 
@@ -84,7 +92,11 @@ const OfficeBearers = () => {
                   <Card className="floating-card border-none shadow-none">
                     <CardHeader className="flex flex-row items-center space-y-0 space-x-4">
                       <Avatar className="w-16 h-16">
-                        <AvatarImage src={bearer.photo} alt={bearer.name} />
+                        <AvatarImage 
+                          src={bearer.photo} 
+                          alt={bearer.name}
+                          className={bearer.name === "Nithya Lakshmi G V" || bearer.name === "Joanna Natalie R" ? "object-cover scale-150" : ""}
+                        />
                         <AvatarFallback>{bearer.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                       </Avatar>
                       <div>

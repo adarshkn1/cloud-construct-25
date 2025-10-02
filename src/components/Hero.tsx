@@ -21,7 +21,7 @@ const Hero = () => {
     >
       {/* Content */}
       <div className="relative z-10 text-center text-white px-2 w-full">
-        <div className="floating-card p-12 w-full mx-auto">
+        <div className="floating-card w-full mx-auto" style={{ paddingTop: '62px', paddingBottom: '62px', paddingLeft: '48px', paddingRight: '48px' }}>
           <div className="flex items-center justify-center gap-8">
             {/* Left Image - ACM Logo */}
             <div className="hidden lg:block">
