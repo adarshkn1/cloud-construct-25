@@ -88,7 +88,7 @@ const DynamicCarousel = () => {
             <CarouselContent className="-ml-2 md:-ml-4">
               {carouselData.map((item) => (
                 <CarouselItem key={item.id} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
-                  <Card className="floating-card border-none shadow-none h-full">
+                  <Card className="floating-card border-none shadow-none h-[400px] flex flex-col">
                     <CardHeader className="text-center pb-4">
                       <div className="text-6xl mb-4">{item.image}</div>
                       <Badge variant="secondary" className="w-fit mx-auto mb-2">
@@ -96,12 +96,12 @@ const DynamicCarousel = () => {
                       </Badge>
                       <CardTitle className="text-xl text-secondary">{item.title}</CardTitle>
                     </CardHeader>
-                    <CardContent className="text-center space-y-4">
+                    <CardContent className="text-center space-y-4 flex-1 flex flex-col justify-between">
                       <CardDescription className="text-muted-foreground leading-relaxed">
                         {item.description}
                       </CardDescription>
                       <div className="mt-4">
-                        <span className="text-2xl font-bold text-accent">{item.stats}</span>
+                        <span className="text-2xl font-bold text-blue-900">{item.stats}</span>
                       </div>
                     </CardContent>
                   </Card>
