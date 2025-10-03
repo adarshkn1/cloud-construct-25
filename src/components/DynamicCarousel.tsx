@@ -15,43 +15,43 @@ const DynamicCarousel = () => {
   const carouselData = [
     {
       id: 1,
-      title: "Innovation Excellence",
-      description: "Driving technological advancement through innovative solutions and strategic partnerships.",
-      category: "Technology",
-      image: "🚀",
-      stats: "500+ Projects"
+      title: "Skill Development",
+      description: "Hands-on workshops, competitions, and technical sessions on emerging technologies.",
+      category: "Learning",
+      image: "💻",
+      stats: "500+ Workshops"
     },
     {
       id: 2,
-      title: "Global Reach",
-      description: "Expanding our presence across international markets with sustainable growth strategies.",
-      category: "Business",
+      title: "Career Growth",
+      description: "Opportunities for internships, conferences, and recognition through ACM scholarships and awards.",
+      category: "Advancement",
+      image: "🚀",
+      stats: "100+ Opportunities"
+    },
+    {
+      id: 3,
+      title: "Access to Knowledge",
+      description: "ACM Digital Library, leading research papers, journals, and magazines",
+      category: "Resources",
+      image: "📖",
+      stats: "1000+ Papers"
+    },
+    {
+      id: 4,
+      title: "Global Networking",
+      description: "Connect with professionals, researchers, and students across the world.",
+      category: "Network",
       image: "🌍",
       stats: "50+ Countries"
     },
     {
-      id: 3,
-      title: "Expert Team",
-      description: "World-class professionals dedicated to delivering exceptional results and client satisfaction.",
-      category: "People",
-      image: "👥",
-      stats: "200+ Experts"
-    },
-    {
-      id: 4,
-      title: "Sustainable Future",
-      description: "Committed to environmental responsibility and building a sustainable future for generations.",
-      category: "Environment",
-      image: "🌱",
-      stats: "Carbon Neutral"
-    },
-    {
       id: 5,
-      title: "Digital Transformation",
-      description: "Leading the digital revolution with cutting-edge technologies and innovative solutions.",
-      category: "Digital",
-      image: "💻",
-      stats: "AI Powered"
+      title: "Community & Collaboration",
+      description: "A chance to work on impactful projects, share ideas, and be part of a supportive tech community.",
+      category: "Together",
+      image: "👥",
+      stats: "Active Community"
     }
   ];
 
@@ -71,10 +71,10 @@ const DynamicCarousel = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="floating-card p-12">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-primary">
-            Our Excellence
+            Benefits of Joining ACM Student Chapter
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Discover what makes us leaders in our field through our key achievements and capabilities.
+            Unlock opportunities, build skills, and connect with the global tech community.
           </p>
           
           <Carousel
@@ -122,6 +122,11 @@ const DynamicCarousel = () => {
               />
             ))}
           </div>
+          
+          {/* Closing message */}
+          <p className="text-center text-muted-foreground mt-8 text-lg">
+            Becoming a member of ACM and its Student Chapter opens the door to a world of opportunities
+          </p>
         </div>
       </div>
     </section>
