@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import DynamicCarousel from '@/components/DynamicCarousel';
 import Events from '@/components/Events';
+import Pioneers from '@/components/Pioneers';
 import OfficeBearers from '@/components/OfficeBearers';
 import Membership from '@/components/Membership';
 import Contact from '@/components/Contact';
@@ -27,6 +28,7 @@ const Index = () => {
         <About />
         <DynamicCarousel />
         <Events />
+        <Pioneers />
         <OfficeBearers />
         <Membership />
         <Contact />
