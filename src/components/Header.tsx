@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import heroRightNew from '@/assets/hero-right-new.jpg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +17,11 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
+            <img 
+              src={heroRightNew} 
+              alt="GAT ACM Logo" 
+              className="w-10 h-10 object-contain"
+            />
             <span className="text-2xl font-bold text-primary">
               GAT ACM
             </span>
