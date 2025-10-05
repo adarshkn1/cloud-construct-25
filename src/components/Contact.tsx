@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -78,32 +78,13 @@ const Contact = () => {
                 <Card className="floating-card border-none shadow-none">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className="bg-primary/10 p-3 rounded-lg">
-                        <MapPin className="text-primary" size={24} />
-                      </div>
-                      <div>
-                        <h4 className="font-semibold mb-2">Address</h4>
-                        <p className="text-muted-foreground">
-                          123 Business District<br />
-                          Professional Plaza, Suite 456<br />
-                          City, State 12345
-                        </p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="floating-card border-none shadow-none">
-                  <CardContent className="p-6">
-                    <div className="flex items-start space-x-4">
                       <div className="bg-secondary/10 p-3 rounded-lg">
                         <Phone className="text-secondary" size={24} />
                       </div>
                       <div>
                         <h4 className="font-semibold mb-2">Phone</h4>
                         <p className="text-muted-foreground">
-                          Main: +1 (555) 123-4567<br />
-                          Toll Free: +1 (800) 123-4567
+                          +91 9916308755
                         </p>
                       </div>
                     </div>
@@ -119,26 +100,8 @@ const Contact = () => {
                       <div>
                         <h4 className="font-semibold mb-2">Email</h4>
                         <p className="text-muted-foreground">
-                          info@organization.com<br />
-                          support@organization.com
-                        </p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="floating-card border-none shadow-none">
-                  <CardContent className="p-6">
-                    <div className="flex items-start space-x-4">
-                      <div className="bg-primary/10 p-3 rounded-lg">
-                        <Clock className="text-primary" size={24} />
-                      </div>
-                      <div>
-                        <h4 className="font-semibold mb-2">Business Hours</h4>
-                        <p className="text-muted-foreground">
-                          Monday - Friday: 9:00 AM - 6:00 PM<br />
-                          Saturday: 10:00 AM - 4:00 PM<br />
-                          Sunday: Closed
+                          acm.studentchapter@gat.ac.in<br />
+                          seema.hegde@gat.ac.in
                         </p>
                       </div>
                     </div>
