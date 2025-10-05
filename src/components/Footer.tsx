@@ -75,10 +75,12 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold text-lg mb-4 text-secondary">Connect</h4>
               <div className="space-y-2">
-                <p className="text-muted-foreground">
-                  123 Business District<br />
-                  Professional Plaza, Suite 456
-                </p>
+                <a 
+                  href="mailto:seema.hegde@gat.ac.in"
+                  className="block text-muted-foreground hover:text-primary transition-colors"
+                >
+                  seema.hegde@gat.ac.in
+                </a>
                 <p className="text-muted-foreground">
                   +91 9916308755
                 </p>

@@ -21,22 +21,10 @@ const Membership = () => {
 
   const membershipTypes = [
     {
-      type: "Individual",
-      price: "$50",
-      period: "Annual",
-      description: "Perfect for individual professionals"
-    },
-    {
       type: "Student",
-      price: "$25",
+      price: "₹1475",
       period: "Annual",
       description: "Special rate for students with valid ID"
-    },
-    {
-      type: "Corporate",
-      price: "$200",
-      period: "Annual",
-      description: "For organizations and companies"
     }
   ];
 
@@ -85,7 +73,7 @@ const Membership = () => {
               <CreditCard className="mr-3" size={28} />
               Membership Fees
             </h3>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="flex justify-center">
               {membershipTypes.map((membership, index) => (
                 <Card key={index} className="floating-card border-none shadow-none">
                   <CardHeader className="text-center">
