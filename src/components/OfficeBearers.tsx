@@ -24,7 +24,7 @@ const OfficeBearers = () => {
     {
       name: "Abhishek R",
       position: "Chapter Chairman",
-      email: "chairman@organization.com",
+      email: "1GA22CS005@gat.ac.in",
       phone: "+91 9353646127",
       linkedin: "https://www.linkedin.com/in/abhisecr/",
       photo: abhishekR,
@@ -33,20 +33,16 @@ const OfficeBearers = () => {
     {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
-      email: "vicechairman@organization.com",
-      phone: "+91 7795077176",
       linkedin: "https://www.linkedin.com/in/nithya-lakshmi-gv-b7464a28b",
       photo: nithyaLakshmi,
-      showContact: true
+      showContact: false
     },
     {
       name: "Joanna Natalie R",
       position: "Secretary",
-      email: "secretary@organization.com",
-      phone: "+91 8861435426",
       linkedin: "https://www.linkedin.com/in/joannanatalie2612",
       photo: joannaNatalie,
-      showContact: true
+      showContact: false
     },
     {
       name: "Dhanush M P",

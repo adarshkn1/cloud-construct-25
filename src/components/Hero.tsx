@@ -34,8 +34,14 @@ const Hero = () => {
             
             {/* Central Content */}
             <div className="text-center">
-              <h1 className="font-bold mb-6 text-primary" style={{ fontSize: '30px' }}>
-                ACM Student Chapter: Your Gateway to Success in Computer Science
+              <h1 className="font-bold mb-6 text-primary flex items-center justify-center gap-3" style={{ fontSize: '30px' }}>
+                <span>ACM Student Chapter: Your Gateway to Success in Computer Science</span>
+                <img 
+                  src={heroRightNew} 
+                  alt="GAT ACM" 
+                  className="w-12 h-12 object-contain inline-block"
+                />
+                <span>GAT ACM</span>
               </h1>
               <p className="text-lg md:text-xl mb-8 text-muted-foreground leading-relaxed mx-auto text-center">
                 Welcome to the ACM (Association for Computing Machinery) Student Chapter, where computer science students come together to learn, grow, and shape the future of technology.
