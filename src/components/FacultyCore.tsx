@@ -3,6 +3,7 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Mail, Phone, Linkedin } from 'lucide-react';
 import seemaHegde from '@/assets/bearers/seema-hegde.jpg';
+import kumaraswamyS from '@/assets/bearers/kumaraswamy-s.jpg';
 
 const FacultyCore = () => {
   const faculty = [
@@ -12,7 +13,7 @@ const FacultyCore = () => {
       email: "skswamy@gat.ac.in",
       phone: "+91 98863 63412",
       linkedin: "https://linkedin.com/in/dr-kumaraswamy-s-278bb32b",
-      photo: seemaHegde,
+      photo: kumaraswamyS,
       showContact: true
     },
     {

@@ -3,9 +3,9 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Mail, Phone, Linkedin } from 'lucide-react';
 import abhishekR from '@/assets/bearers/abhishek-r.jpg';
+import joannaNatalie from '@/assets/bearers/joanna-natalie.jpg';
 import nithyaLakshmi from '@/assets/bearers/nithya-lakshmi.jpg';
 import dhanushMP from '@/assets/bearers/dhanush-mp.jpg';
-import joannaNatalie from '@/assets/bearers/joanna-natalie.jpg';
 import adamAhmed from '@/assets/bearers/adam-ahmed.jpg';
 import nachikethanaKB from '@/assets/bearers/nachikethana-kb.jpg';
 
@@ -21,17 +21,18 @@ const OfficeBearers = () => {
       showContact: true
     },
     {
+      name: "Joanna Natalie R",
+      position: "Secretary",
+      phone: "+91 88614 35426",
+      linkedin: "https://www.linkedin.com/in/joannanatalie2612",
+      photo: joannaNatalie,
+      showContact: true
+    },
+    {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
       linkedin: "https://www.linkedin.com/in/nithya-lakshmi-gv-b7464a28b",
       photo: nithyaLakshmi,
-      showContact: false
-    },
-    {
-      name: "Joanna Natalie R",
-      position: "Secretary",
-      linkedin: "https://www.linkedin.com/in/joannanatalie2612",
-      photo: joannaNatalie,
       showContact: false
     },
     {
