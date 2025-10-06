@@ -105,7 +105,7 @@ const Membership = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground"
-              onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdAy7uxacFMvPkDoAoiarz05_1oYXlrKeeLk-BvDXyPLUxZHg/viewform?usp=sharing', '_blank')}
+              onClick={() => window.open('https://forms.cloud.microsoft/r/ANytWKrisH', '_blank')}
             >
               Register Now
               <ExternalLink className="ml-2" size={20} />
