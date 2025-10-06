@@ -93,7 +93,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-6 text-secondary">Follow Us</h3>
             <div className="flex justify-center space-x-8">
               <a 
-                href="https://linkedin.com/company/acm" 
+                href="https://linkedin.com/in/acm-studentchapter-gat-16a58737a" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center space-y-2 p-6 rounded-2xl bg-gradient-to-br from-blue-500/20 to-blue-600/10 hover:from-blue-500/30 hover:to-blue-600/20 transition-all duration-300 transform hover:scale-105"

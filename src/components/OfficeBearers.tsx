@@ -117,7 +117,7 @@ const OfficeBearers = () => {
                         <div className="flex items-center space-x-2 text-muted-foreground">
                           <Linkedin size={16} />
                           <a 
-                            href="https://linkedin.com/in/acm-studentchapter-gat-16a58737a"
+                            href={bearer.linkedin}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-primary transition-colors"
