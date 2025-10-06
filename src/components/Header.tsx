@@ -20,7 +20,7 @@ const Header = () => {
             <img 
               src={heroRightNew} 
               alt="GAT ACM Logo" 
-              className="w-16 h-16 object-contain"
+              className="w-12 h-12 object-contain"
             />
             <span className="text-2xl font-bold text-primary">
               GAT ACM
