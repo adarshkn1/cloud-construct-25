@@ -2,7 +2,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Mail, Phone, Linkedin } from 'lucide-react';
-import seemaHegde from '@/assets/bearers/seema-hegde.jpg';
 import abhishekR from '@/assets/bearers/abhishek-r.jpg';
 import nithyaLakshmi from '@/assets/bearers/nithya-lakshmi.jpg';
 import dhanushMP from '@/assets/bearers/dhanush-mp.jpg';
@@ -12,15 +11,6 @@ import nachikethanaKB from '@/assets/bearers/nachikethana-kb.jpg';
 
 const OfficeBearers = () => {
   const bearers = [
-    {
-      name: "Dr. Seema B Hegde",
-      position: "Faculty Sponsor",
-      email: "seema.hegde@gat.ac.in",
-      phone: "+91 9916308755",
-      linkedin: "https://www.linkedin.com/in/dr-seema-b-hegde-4915b523?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      photo: seemaHegde,
-      showContact: true
-    },
     {
       name: "Abhishek R",
       position: "Chapter Chairman",

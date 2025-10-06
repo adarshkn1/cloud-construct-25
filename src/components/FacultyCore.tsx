@@ -7,6 +7,15 @@ import seemaHegde from '@/assets/bearers/seema-hegde.jpg';
 const FacultyCore = () => {
   const faculty = [
     {
+      name: "Kumaraswamy S",
+      position: "Faculty Advisor",
+      email: "skswamy@gat.ac.in",
+      phone: "+91 98863 63412",
+      linkedin: "https://linkedin.com/in/dr-kumaraswamy-s-278bb32b",
+      photo: seemaHegde,
+      showContact: true
+    },
+    {
       name: "Dr. Seema B Hegde",
       position: "Faculty Co-ordinator",
       email: "seema.hegde@gat.ac.in",
@@ -93,8 +102,6 @@ const FacultyCore = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
           </Carousel>
         </div>
       </div>
