@@ -4,6 +4,7 @@ import About from '@/components/About';
 import DynamicCarousel from '@/components/DynamicCarousel';
 import Events from '@/components/Events';
 import Pioneers from '@/components/Pioneers';
+import FacultyCore from '@/components/FacultyCore';
 import OfficeBearers from '@/components/OfficeBearers';
 import Membership from '@/components/Membership';
 import Contact from '@/components/Contact';
@@ -29,6 +30,7 @@ const Index = () => {
         <DynamicCarousel />
         <Events />
         <Pioneers />
+        <FacultyCore />
         <OfficeBearers />
         <Membership />
         <Contact />
