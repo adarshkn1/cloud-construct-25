@@ -27,7 +27,7 @@ const DynamicCarousel = () => {
       description: "Opportunities for internships, conferences, and recognition through ACM scholarships and awards.",
       category: "Advancement",
       image: "🚀",
-      stats: "100+ Opportunities"
+      stats: "Global Opportunities"
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ const DynamicCarousel = () => {
       description: "ACM Digital Library, leading research papers, journals, and magazines",
       category: "Resources",
       image: "📖",
-      stats: "1000+ Papers"
+      stats: "50000+ Papers"
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const DynamicCarousel = () => {
       description: "Connect with professionals, researchers, and students across the world.",
       category: "Network",
       image: "🌍",
-      stats: "50+ Countries"
+      stats: "190+ Countries"
     },
     {
       id: 5,

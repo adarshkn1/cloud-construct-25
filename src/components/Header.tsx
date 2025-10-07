@@ -48,6 +48,12 @@ const Header = () => {
               Events
             </button>
             <button 
+              onClick={() => scrollToSection('gallery')}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Gallery
+            </button>
+            <button 
               onClick={() => scrollToSection('bearers')}
               className="text-foreground hover:text-primary transition-colors"
             >
@@ -100,6 +106,12 @@ const Header = () => {
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 Events
+              </button>
+              <button 
+                onClick={() => scrollToSection('gallery')}
+                className="text-left text-foreground hover:text-primary transition-colors"
+              >
+                Gallery
               </button>
               <button 
                 onClick={() => scrollToSection('bearers')}
