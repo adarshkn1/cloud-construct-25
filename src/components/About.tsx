@@ -12,13 +12,13 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-6 text-secondary">
                 Our Mission
               </h3>
-              <ul className="text-muted-foreground text-lg leading-relaxed space-y-4 list-disc list-inside">
-                <li>To provide a collaborative platform for students to explore and excel in computing and emerging technologies through knowledge sharing, research, and innovation.</li>
-                <li>To nurture professional skills, ethical values, and leadership qualities in line with ACM's global standards and GAT's institutional goals.</li>
-                <li>To organize technical events, workshops, hackathons, and seminars that bridge academia, industry, and research.</li>
-                <li>To encourage participation in global ACM initiatives, competitions, and communities for continuous learning and growth.</li>
-                <li>To promote inclusivity, creativity, and social responsibility in leveraging computing for the betterment of society.</li>
-              </ul>
+              <div className="text-muted-foreground text-lg leading-relaxed space-y-4">
+                <p>To provide a collaborative platform for students to explore and excel in computing and emerging technologies through knowledge sharing, research, and innovation.</p>
+                <p>To nurture professional skills, ethical values, and leadership qualities in line with ACM's global standards and GAT's institutional goals.</p>
+                <p>To organize technical events, workshops, hackathons, and seminars that bridge academia, industry, and research.</p>
+                <p>To encourage participation in global ACM initiatives, competitions, and communities for continuous learning and growth.</p>
+                <p>To promote inclusivity, creativity, and social responsibility in leveraging computing for the betterment of society.</p>
+              </div>
             </div>
             
             <div>
