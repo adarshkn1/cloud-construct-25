@@ -15,7 +15,7 @@ const Events = () => {
             <img 
               src={acmInvitation} 
               alt="ACM Student Chapter Inauguration - October 10th, 2025 at GAT Auditorium" 
-              className="rounded-lg shadow-lg w-1/2 h-auto"
+              className="rounded-lg shadow-lg w-2/5 h-auto"
             />
           </div>
         </div>
