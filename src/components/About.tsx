@@ -7,7 +7,7 @@ const About = () => {
             About Us
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-12 items-start">
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-secondary">
                 Our Mission
@@ -28,6 +28,32 @@ const About = () => {
               <p className="text-muted-foreground text-lg leading-relaxed">
                 To foster a vibrant community of innovators and leaders in computing, nurturing curiosity and creativity while empowering students with knowledge, skills, and values to drive technological progress and inspire minds toward building impactful solutions for a sustainable digital future.
               </p>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-secondary">
+              Our Values
+            </h3>
+            <div className="space-y-4">
+              <div className="border-l-4 border-primary pl-6">
+                <h4 className="font-semibold text-lg mb-2">Excellence</h4>
+                <p className="text-muted-foreground">
+                  We pursue the highest standards in all our endeavors.
+                </p>
+              </div>
+              <div className="border-l-4 border-secondary pl-6">
+                <h4 className="font-semibold text-lg mb-2">Innovation</h4>
+                <p className="text-muted-foreground">
+                  We embrace change and drive forward-thinking solutions.
+                </p>
+              </div>
+              <div className="border-l-4 border-accent pl-6">
+                <h4 className="font-semibold text-lg mb-2">Integrity</h4>
+                <p className="text-muted-foreground">
+                  We operate with honesty and transparency in everything we do.
+                </p>
+              </div>
             </div>
           </div>
         </div>
