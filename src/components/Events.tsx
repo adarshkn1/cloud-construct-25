@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Clock } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import acmInvitation from '@/assets/acm-invitation.png';
 
 const Events = () => {
   return (
@@ -10,10 +11,12 @@ const Events = () => {
             Upcoming Events
           </h2>
           
-          <div className="text-center">
-            <p className="text-2xl text-muted-foreground">
-              Coming Soon
-            </p>
+          <div className="flex justify-center">
+            <img 
+              src={acmInvitation} 
+              alt="ACM Student Chapter Inauguration - October 10th, 2025 at GAT Auditorium" 
+              className="rounded-lg shadow-lg max-w-full h-auto"
+            />
           </div>
         </div>
       </div>

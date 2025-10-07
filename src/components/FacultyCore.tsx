@@ -18,7 +18,7 @@ const FacultyCore = () => {
     },
     {
       name: "Dr. Seema B Hegde",
-      position: "Faculty Co-ordinator",
+      position: "Faculty Sponsor",
       email: "seema.hegde@gat.ac.in",
       phone: "+91 9916308755",
       linkedin: "https://www.linkedin.com/in/dr-seema-b-hegde-4915b523?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
