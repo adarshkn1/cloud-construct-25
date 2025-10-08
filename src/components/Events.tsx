@@ -8,7 +8,7 @@ const Events = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="floating-card p-12">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary">
-            Upcoming Events
+            Ongoing Events
           </h2>
           
           <div className="flex justify-center">

@@ -7,7 +7,7 @@ import joannaNatalie from '@/assets/bearers/joanna-natalie.jpg';
 import nithyaLakshmi from '@/assets/bearers/nithya-lakshmi.jpg';
 import dhanushMP from '@/assets/bearers/dhanush-mp.jpg';
 import adamAhmed from '@/assets/bearers/adam-ahmed.jpg';
-import nachikethanaKB from '@/assets/bearers/nachikethana-kb.jpg';
+import nachikethanaKB from '@/assets/bearers/nachikethana-kb-new.jpg';
 
 const OfficeBearers = () => {
   const bearers = [
@@ -29,6 +29,13 @@ const OfficeBearers = () => {
       showContact: true
     },
     {
+      name: "Nachikethana K B",
+      position: "Membership Head",
+      linkedin: "https://www.linkedin.com/in/nachikethana-k-b-362975339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      photo: nachikethanaKB,
+      showContact: false
+    },
+    {
       name: "Nithya Lakshmi G V",
       position: "Chapter Vice Chairman",
       linkedin: "https://www.linkedin.com/in/nithya-lakshmi-gv-b7464a28b",
@@ -47,13 +54,6 @@ const OfficeBearers = () => {
       position: "Web Master",
       linkedin: "https://www.linkedin.com/in/adamahmedyahya",
       photo: adamAhmed,
-      showContact: false
-    },
-    {
-      name: "Nachikethana K B",
-      position: "Membership Head",
-      linkedin: "https://www.linkedin.com/in/nachikethana-k-b-362975339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      photo: nachikethanaKB,
       showContact: false
     }
   ];
