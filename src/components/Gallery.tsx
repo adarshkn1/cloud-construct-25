@@ -50,27 +50,23 @@ const Gallery = () => {
           
           {/* ACM ROCS 2025 Hover Card */}
           <div 
-            className="mt-12 transition-all duration-500 ease-in-out"
+            className="mt-12 transition-all duration-700 ease-in-out transform"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
             {!isHovered ? (
-              <Card className="bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-all duration-300 cursor-pointer">
-                <CardHeader>
+              <Card className="bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-all duration-500 cursor-pointer hover:scale-105 hover:shadow-xl">
+                <CardHeader className="py-12">
                   <CardTitle className="text-3xl md:text-4xl font-bold text-center text-secondary">
                     ACM ROCS 2025
                   </CardTitle>
-                  <CardDescription className="text-center text-lg mt-4">
-                    Team ACM-GAT had an amazing experience being part of ROCS (Research Opportunities in Computer Science), 
-                    a 2-day tech orientation packed with learning and collaboration with our friends at ACM BMSCE and ACM INDIA!
-                  </CardDescription>
                 </CardHeader>
-                <CardContent className="text-center text-muted-foreground italic">
+                <CardContent className="text-center text-muted-foreground italic pb-8">
                   Hover to view photos and full details
                 </CardContent>
               </Card>
             ) : (
-              <div className="animate-in fade-in duration-500">
+              <div className="animate-in fade-in duration-700 scale-105 transform transition-all">
                 <h3 className="text-3xl md:text-4xl font-bold text-center mb-6 text-secondary">
                   ACM ROCS 2025
                 </h3>
